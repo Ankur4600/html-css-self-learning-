@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label tag</title>
+</head>
+<body>
+    <!--the <label> tag enables to rendering of the caption for the specific items in the webpage
+        the <label> tag need an "for" attribute whose value is the same as the input "id"-->
+    <form action="/ankur.php" method="post">
+        <label for="name">Username:</label>
+        <input id="name" type="text" placeholder="enter username" required="true" name="username"><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required="true" placeholder="enter your password" name="password"><br>
+        <label for="otp" >OTP</label>
+        <input type="number" placeholder="Enter otp " name="otp" id="otp" required="true"><br>
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>
