@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input types</title>
+</head>
+<body>
+    <form action="/ankur.php">
+        <!-- input type="date" defines a date picker the resulting value includes the year month and day-->
+         <label for="date">Date</label>
+         <input type="date" id="date" name="date" min="2002/10/01" max="2025/10/01"><hr>
+         <!-- input type="file" let the user chose file from their device storage-->
+          <label for="pick">upload photo</label>
+          <input type="file" id="pick" value="file" name="candidate photo" accept="image/png,image/jpeg" ><hr>
+          <!-- input type="color" provide user interface element that let a user specify a color-->
+           <label for="color"> choose your color</label>
+           <input type="color" id="color" name="favourite color"><hr>
+           <!--input type="range" let the user specify a numericvalue which must be less than a given value and not more than the valur-->
+           <label for="range"> select the price range</label>
+           <input type="range" id="range" value="price range"  min="0" max="99" step="1" value="90"><hr>
+           <!-- input type="button" are rendered as simple push button which can be programmed to control custom functionality anywhere on a webpage-->
+            <input type="button"  value="Add to favourite"><hr>
+            <!-- input type="radio" are generally used in radio groupncollections of radio button describing a set of related options-->
+             <!-- here we are using <fieldset> tag  which used to group related element in a form . it draw a box around the related elements and <legend> tag is used to define a caption for the <fieldset> element-->
+            <fieldset>
+                <legend>select one of the above</legend>
+                <lebel for="fruit1">Mango</lebel>
+                <input type="radio" id="fruit1" value="mango" name="fruit"><br>
+                <label for="fruit2">mango</label>
+                <input type="radio" id="fruit2" name="fruit" value="mango"><br>
+                <label for="fruit3">aam</label>
+                <input type="radio" id="fruit3" name="fruit" value="aam"><hr>
+                <big><b>NOTE:-</b>Ignore erery thing just eat mango</big>
+            </fieldset><hr>
+            <!-- input type="checkbox"  are rendered by default as boxes that are checked when activated-->
+             <fieldset>
+                <legend>select the language you know</legend>
+                <label for="c">C</label>
+                <input type="checkbox" id="c" value="c" name="language1"><br>
+                <label for="java">JAVA</label>
+                <input type="checkbox" id="java" value="java" name="language2"><br>
+                <label for="html">HTML</label>
+                <input type="checkbox" id="html" value="html" name="langugae3"><br>
+                <label for="css">CSS</label>
+                <input type="checkbox" id="css" value="css" name="language4">
+             </fieldset><hr>
+             <!-- <select> html element represent a control that provides a menu of options(it uses in place of radio and create dropdown becouse there are large number of options)-->
+                <label for="desh"> select your country</label>
+                <select name="country" id="desh">
+                    <option value=" ">please select an option</option>
+                    <option value="Bharat">Bharat 🇮🇳</option>
+                    <option value="Nepal">Nepal🇳🇵</option>
+                    <option value="SriLanka">Srilanka</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Other">Other</option>
+                </select><hr>
+             <!-- <textarea> element represent a multiline plain-text editing control which is use when you allow user to enter sizeable amount of free-form text-->
+             <label for="comment">Reviews</label>
+             <textarea name="review" id="commnet" rows="5" col="30"> write your review</textarea><hr>
+             <!-- <iframe> html element represnets a nested browsing context, embedding another html page into the current one-->
+                <iframe src="https://www.wikipedia.org" frameborder="5" height="300" width="350" >hello</iframe>
+    </form>
+    
+</body>
+</html>
