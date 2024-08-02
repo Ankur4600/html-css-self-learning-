@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bar{
+    height: 50px;
+    width: 500px;
+    background-color: aqua;
+    color: rgb(165, 42, 42, 0.8); 
+}
+#main{
+    height: 300px;
+    width: 500px;
+    background-color: burlywood;
+}
+#img{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://www.imagesbof.in/wp-content/uploads/2024/03/myntra-1-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box{
+    height:40px;
+    width: 50px;
+}
+#div1{
+    margin: 10px;
+    padding: 10px;
+background-color: blueviolet;
+visibility: initial;
+}
+#div2{
+    background-color: chartreuse;
+    visibility: visible;
+}
