@@ -1,0 +1,40 @@
+#heading{
+    background-color: chocolate;
+    text-transform: capitalize;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+#linkedin{
+    font-size: 50px;
+}
+#github{
+    font-size: 55px;
+}
+#align{
+    height: 70px;
+    width: 70px;
+    background-color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: chocolate;
+}
+#line_height{
+    line-height: 10px;
+    background-color: rgb(98, 198, 228);
+}
+#div2{
+    line-height: 30px;
+    background-color: rgb(108, 180, 98);
+    font-weight: 900;
+    font-style: italic;
+}
