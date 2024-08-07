@@ -1,0 +1,12 @@
+const myName='Ankur';
+const GSTpercentage=18;
+document.querySelector('#displayName').innerText=myName;
+let shoePrise=5999;
+let discountOnShoe=20/100*5999;
+let shirtPrise=1599;
+let discountOnShirt=39/100*1599;
+let shippingCharge=40;
+let GSTonCart=(100+GSTpercentage)/100;
+let priceOfCart=(shoePrise-discountOnShoe)+(shirtPrise-discountOnShirt)+shippingCharge+GSTonCart;
+console.log(priceOfCart);
+console.log(eval('55+62'));
