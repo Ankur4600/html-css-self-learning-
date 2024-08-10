@@ -17,5 +17,5 @@ console.log(user.age);
 user.name='tinku';
 console.log(user);
 //deteting the object property by using delete keyword
-delete user.name;
+delete user.name;// this can delete the property of the object
 console.log(user);
