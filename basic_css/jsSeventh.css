@@ -1,0 +1,12 @@
+#click{
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 8px;
+}
+.js-odd{
+    background-color: brown;
+}
+.js-even{
+    background-color: chocolate;
+}
