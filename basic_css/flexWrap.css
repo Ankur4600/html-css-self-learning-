@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+}
+#box1{
+    border: 2px solid black;
+    height: 800px;
+    width: 90%;
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+
+
+    /* align-items:end; */
+    align-items:center;
+    /* align-items:start;  */
+
+
+
+    /* align-content: start; */
+    /* align-content: end; */
+    align-content: center;
+    /* this property remove space between the items and align them at the given position and get higher priority than align-item */ 
+  
+
+}
+.div{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    padding-top:50px
+
+}
+#div6{
+    /* align-self:end; */
+    /* align-self: start; */
+    /* align-self:center; */
+
+
+   /* flex-shrink: 0;   */
+   /*  this property let any individual item shrink unevenly in comparison to other items but only wortk when flex-wrap is off*/
+
+   /* flex-grow  specifies how much a flex item will grow relative to other item in the flex container when additional space is available */
+
+   /* flex-grow: 1; */
+}
