@@ -69,3 +69,4 @@ for(let i=0;i<array99.length; i++){
     sentence=sentence+` ${array99[i]}`;
 }
 console.log(sentence);
+console.log(array99.join(" "));
