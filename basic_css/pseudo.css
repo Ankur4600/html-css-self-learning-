@@ -1,0 +1,25 @@
+#container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    /* trasnsition */
+    transition-property: all;
+    transition-duration: 0.5s;
+    -o-transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+button:hover{
+    height: 70px;
+    width: 120px;
+    border:5px solid rgb(110, 5, 229);
+}
+button:active{
+    background-color: aqua;
+}
