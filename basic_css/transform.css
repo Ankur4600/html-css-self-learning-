@@ -1,0 +1,91 @@
+.container{
+
+    height: 70px;
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 8px;
+    /* transition-property: all;
+    transition¬ø-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s; */
+    transition: all 2s ease-in;
+}
+
+
+
+/* rotate */
+#box1:hover{
+    transform:rotate(45deg);
+    background-color: rgb(72, 0, 255);
+}
+#box2:hover{
+    transform:rotatex(63deg);
+    background-color: rgb(0, 255, 234);
+}
+#box3:hover{
+    transform:rotatey(500deg);
+    background-color: rgb(208, 255, 0);
+}
+#box4:hover{
+    transform:rotatez(720deg);
+    background-color: red;
+}
+
+
+
+/* scale property */
+#box5:hover{
+    transform:scale(2);
+    background-color: rgb(72, 0, 255);
+}
+#box6:hover{
+    transform:scale(.5);
+    background-color: rgb(72, 0, 255);
+}
+#box7:hover{
+    transform:scaleX(3);
+    background-color: rgb(72, 0, 255);
+}
+#box8:hover{
+    transform:scaleY(4);
+    background-color: rgb(72, 0, 255);
+}
+
+
+
+/* translate */
+#box9:hover{
+    transform:translate(80px);
+    background-color: rgb(72, 0, 255);
+}
+#box10:hover{
+    transform:translate(80px,80px);
+    background-color: rgb(72, 0, 255);
+}
+#box11:hover{
+    transform:translatex(120px);
+    background-color: rgb(72, 0, 255);
+}
+#box12:hover{
+    transform:translate(-77px,-88px);
+    background-color: rgb(72, 0, 255);
+}
+
+/* Skew */
+#box13:hover{
+    transform:Skew(45deg);
+    background-color: rgb(72, 0, 255);
+}
+#box14:hover{
+    transform:SkewY(60deg);
+    background-color: rgb(72, 0, 255);
+}
